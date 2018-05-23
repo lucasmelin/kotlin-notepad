@@ -17,6 +17,7 @@ class MainActivity : AppCompatActivity() {
     public override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
         setSupportActionBar(toolbar)
         fab.setOnClickListener { startActivity(CreateActivity.get(this@MainActivity)) }
 
